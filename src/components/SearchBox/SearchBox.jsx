@@ -15,7 +15,7 @@ const SearchBox = () => {
         type="text"
         name="filter"
         onChange={(e) => {
-          dispatch(changeFilter(e.target.value));
+          dispatch(changeFilter(e.target.value.trim().toLowerCase()));
         }}
         value={value}
       />
