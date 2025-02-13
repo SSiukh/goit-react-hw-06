@@ -1,0 +1,18 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+.title {
+  color: var(--text-col);
+  font-size: 16px;
+}
+.input {
+  background-color: var(--dyn-col);
+  border: 1px solid var(--dyn-how-col);
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: var(--text-col);
+}

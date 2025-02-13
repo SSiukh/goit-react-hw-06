@@ -1,0 +1,51 @@
+:root {
+  --dyn-how-col: #b8dbd9;
+  --dyn-col: #586f7c;
+  --text-col: #f4f4f9;
+  --back-сol: #222222;
+  --sec-back-col: #2f4550;
+  --red-col: #cc3f0c;
+  --err-col: #ff0000;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: var(--back-сol);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  width: 350px;
+  padding: 20px 20px;
+  margin: 0 auto;
+  background-color: #333333;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+h1 {
+  color: var(--text-col);
+  font-size: 24px;
+  margin-bottom: 15px;
+}

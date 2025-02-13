@@ -1,0 +1,53 @@
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: var(--sec-back-col);
+  border: 1px solid var(--text-col);
+  width: 100%;
+  border-radius: 10px;
+  transition: background-color 250ms ease-in;
+
+  &:hover {
+    background-color: var(--dyn-col);
+  }
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.block {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.text {
+  color: var(--text-col);
+  font-size: 16px;
+}
+.delete {
+  cursor: pointer;
+  background-color: var(--dyn-col);
+  border: 1px solid var(--dyn-how-col);
+  display: flex;
+  padding: 5px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 5px;
+  color: var(--text-col);
+  transition: transform 250ms ease-in, background-color 250ms ease-in;
+
+  &:hover {
+    transform: scale(110%);
+    background-color: var(--red-col);
+  }
+}
+.userIcon {
+  color: var(--text-col);
+}
+.telIcon {
+  color: var(--text-col);
+}
